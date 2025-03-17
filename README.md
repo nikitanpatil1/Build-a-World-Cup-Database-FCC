@@ -34,14 +34,10 @@ You need to do three things for this project:
   - The output should match what is in the **expected_output.txt** file *exactly*, take note of the number of decimal places in some of the query results.
 
 
-![Image](https://github.com/user-attachments/assets/a649b557-5295-474d-bf94-9d955d2cebd8)
+![Image](https://github.com/user-attachments/assets/c7cd8d03-3c40-42ee-a6ec-00036fddcb96)
 
-![Image](https://github.com/user-attachments/assets/b22caef7-ef7d-4e34-8f48-67f396cfeaa6)
+![Image](https://github.com/user-attachments/assets/8eb6a1ea-fdbd-450f-949f-db1cc5a3e333)
 
-![Image](https://github.com/user-attachments/assets/67b91a16-6f20-4316-b601-497898b42675)
+![Image](https://github.com/user-attachments/assets/cc2b7bdf-8dc8-42de-bfdd-2a3dd081209d)
 
-![Image](https://github.com/user-attachments/assets/7674c896-f88b-4bb7-a8be-0ad44a96ab44)
-
-![Image](https://github.com/user-attachments/assets/21463acd-4ebd-41ef-86e9-1600b761caac)
-
-![Image](https://github.com/user-attachments/assets/5d1a13f7-0d49-43dd-a56e-84794bbf3295)
+![Image](https://github.com/user-attachments/assets/7a5f3e3a-717b-4800-aa99-acf582204244)
