@@ -33,11 +33,35 @@ You need to do three things for this project:
   - Fill in each empty **echo** command to get the output of what is suggested with the command above it.
   - The output should match what is in the **expected_output.txt** file *exactly*, take note of the number of decimal places in some of the query results.
 
+## Solution
 
-![Image](https://github.com/user-attachments/assets/c7cd8d03-3c40-42ee-a6ec-00036fddcb96)
+- Part 1: Create the database 
 
-![Image](https://github.com/user-attachments/assets/8eb6a1ea-fdbd-450f-949f-db1cc5a3e333)
-
-![Image](https://github.com/user-attachments/assets/cc2b7bdf-8dc8-42de-bfdd-2a3dd081209d)
-
-![Image](https://github.com/user-attachments/assets/7a5f3e3a-717b-4800-aa99-acf582204244)
+  The database and tables were created according to the above conditions, the queries are present in  [*worldcup.sql*](https://github.com/nikitanpatil1/Build-a-World-Cup-Database-FCC/blob/main/worldcup.sql) file.
+  
+  
+- Part 2: Insert the data 
+  
+  To insert the data into the database according to the above conditions a *bash script* was created which is in the file named  [*insert_data.sh*](https://github.com/nikitanpatil1/Build-a-World-Cup-Database-FCC/blob/main/insert_data.sh)  which when executed takes the data from  [*games.csv*](https://github.com/nikitanpatil1/Build-a-World-Cup-Database-FCC/blob/main/games.csv)  file and inserts it in the database into the respective tables.
+  
+  #### Output of tables after the data is inserted:
+  
+  - *games table*
+    
+    ![Image](https://github.com/user-attachments/assets/c7cd8d03-3c40-42ee-a6ec-00036fddcb96)
+  
+  - *teams table*
+    
+    ![Image](https://github.com/user-attachments/assets/8eb6a1ea-fdbd-450f-949f-db1cc5a3e333)
+  
+  
+- Part 3: Query the database 
+  
+  To query the database for useful statistics the queries are written in  [*queries.sh*](https://github.com/nikitanpatil1/Build-a-World-Cup-Database-FCC/blob/main/queries.sh)  file which when executed gives the output according to the questions asked. the output was matched to the  [*expected_output.txt*](https://github.com/nikitanpatil1/Build-a-World-Cup-Database-FCC/blob/main/expected_output.txt)  file.
+  
+   #### Output 
+  
+  ![Image](https://github.com/user-attachments/assets/cc2b7bdf-8dc8-42de-bfdd-2a3dd081209d)
+  ![Image](https://github.com/user-attachments/assets/7a5f3e3a-717b-4800-aa99-acf582204244)
+  
+  
