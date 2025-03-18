@@ -8,7 +8,7 @@ You start with several files, one of them is *games.csv* . It contains a comma-s
 
 You need to do three things for this project:
 
-- Part 1: Create the database 
+### Part 1: Create the database 
 
   Create your database structure according to the user stories below. Don't forget to connect to the database after you create it. 
   - Create a database named **worldcup** and then create **teams** and **games** tables.
@@ -19,14 +19,14 @@ You need to do three things for this project:
   - All the columns should have the **NOT NULL** constraint.
   
 
-- Part 2: Insert the data 
+### Part 2: Insert the data 
 
   Complete the *insert_data.sh* script to correctly insert all the data from *games.csv* into the database.
   - When you run your **insert_data.sh** script, it should add each unique team to the *teams* table. There should be 24 rows.
   - When you run your **insert_data.sh** script, it should insert a row for each line in the games.csv file (other than the top line of the file). There should be 32 rows.
   - Each row should have every column filled in with the appropriate info. Make sure to add the correct ID's from the *teams* table (you cannot hard-code the values).
 
-- Part 3: Query the database 
+### Part 3: Query the database 
 
   Complete the empty echo commands in the *queries.sh* file to produce output that matches the *expected_output.txt* file.
   - Correctly complete the *queries* in the **queries.sh** file.
@@ -35,12 +35,12 @@ You need to do three things for this project:
 
 ## Solution
 
-- Part 1: Create the database 
+### Part 1: Create the database 
 
   The database and tables were created according to the above conditions, the queries are present in  [*worldcup.sql*](https://github.com/nikitanpatil1/Build-a-World-Cup-Database-FCC/blob/main/worldcup.sql) file.
   
   
-- Part 2: Insert the data 
+### Part 2: Insert the data 
   
   To insert the data into the database according to the above conditions a *bash script* was created which is in the file named  [*insert_data.sh*](https://github.com/nikitanpatil1/Build-a-World-Cup-Database-FCC/blob/main/insert_data.sh)  which when executed takes the data from  [*games.csv*](https://github.com/nikitanpatil1/Build-a-World-Cup-Database-FCC/blob/main/games.csv)  file and inserts it in the database into the respective tables.
   
@@ -55,7 +55,7 @@ You need to do three things for this project:
     ![Image](https://github.com/user-attachments/assets/8eb6a1ea-fdbd-450f-949f-db1cc5a3e333)
   
   
-- Part 3: Query the database 
+### Part 3: Query the database 
   
   To query the database for useful statistics the queries are written in  [*queries.sh*](https://github.com/nikitanpatil1/Build-a-World-Cup-Database-FCC/blob/main/queries.sh)  file which when executed gives the output according to the questions asked. the output was matched to the  [*expected_output.txt*](https://github.com/nikitanpatil1/Build-a-World-Cup-Database-FCC/blob/main/expected_output.txt)  file.
   
