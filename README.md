@@ -1,6 +1,6 @@
 # World Cup Database
 
-*This project consists of creating a Bash script that enters information from World Cup games into PostgreSQL, then querying the database for useful statistics.*
+*This project consists of creating a Bash script that enters information from World Cup games.csv file into PostgreSQL, then querying the database for useful statistics.*
 
 ## Problem Statement
 
